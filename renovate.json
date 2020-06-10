@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "labels": [
+    "dependencies"
+  ],
+  "reviewers": [
+    "MarcelCoding"
+  ],
+  "branchName": "{{{branchPrefix}}}{{{managerBranchPrefix}}}{{{branchTopic}}}",
+  "branchPrefix": "dependencies/"
+}
