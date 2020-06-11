@@ -22,6 +22,12 @@ repositories {
 }
 
 dependencies {
+    implementation 'net.getnova.backend:nova-logging:+'
+    implementation 'net.getnova.backend:nova-service:+'
+    implementation 'net.getnova.backend:nova-injection:+'
+    implementation 'net.getnova.backend:nova-config:+'
+    implementation 'net.getnova.backend:nova-codec-http:+'
+    runtimeOnly 'net.getnova.backend:nova-bootstrap:+'
 }
 
 jar {
@@ -36,7 +42,7 @@ jar {
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
                 "Module-Name"             : project.name,
                 "Module-Version"          : project.version,
-//                "Module-Services"         : "net.getnova.backend.maven.MavenServer"
+                "Module-Services"         : "net.getnova.backend.maven.MavenServer"
         ])
     }
 

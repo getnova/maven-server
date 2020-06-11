@@ -6,7 +6,8 @@
     "dependencies"
   ],
   "reviewers": [
-    "MarcelCoding"
+    "MarcelCoding",
+    "JannikEmmerich"
   ],
   "branchName": "{{{branchPrefix}}}{{{managerBranchPrefix}}}{{{branchTopic}}}",
   "branchPrefix": "dependencies/"
